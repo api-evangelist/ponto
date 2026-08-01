@@ -1,8 +1,24 @@
 aid: ponto
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ponto.png
 name: Ponto
-description: Ponto is a company surfaced as a portfolio company of general-catalyst, polychain and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Ponto is a crypto banking and payments infrastructure company in the fintech sector, surfaced
+  as a portfolio company of General Catalyst and Polychain and added to the API Evangelist network for
+  enrichment. As of this pass no public developer portal, API reference, or OpenAPI surface could be
+  located for the company - the previously associated ponto.io domain now redirects to an unrelated party
+  and no other candidate domain resolved to a live crypto-banking product. This profile remains a thin
+  lead pending discovery of a verified developer/API surface, at which point the pipeline can harvest and
+  enrich real artifacts.
 url: https://raw.githubusercontent.com/api-evangelist/ponto/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +29,20 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Fintech
+- Cryptocurrency
+- Banking
+- Payments
+- Infrastructure
 apis: []
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
