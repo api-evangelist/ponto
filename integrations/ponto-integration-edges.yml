@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/ponto/integrations
+- https://n8n.io/integrations/ponto/
+- https://composio.dev/toolkits/ponto
+- https://monid.ai/tools/ponto
+checked:
+- https://composio.dev/toolkits/ponto
+- https://monid.ai/tools/ponto
+- https://n8n.io/integrations/ponto/
+- https://zapier.com/apps/ponto/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
